@@ -20,12 +20,12 @@ body{
     width: 100%;
     height: 700px;
     min-height: 100vh;
-    background: linear-gradient(rgb(34, 34, 134),rgb(196, 26, 35));
-   background-image: url(./img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
-   background-size: cover;
-   background-position: center;
-   position: relative;
-   
+    /* background: linear-gradient(rgb(34, 34, 134),rgb(196, 26, 35)); */
+background: url(./img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+
 }
 
 header{
@@ -49,31 +49,7 @@ font-size: 20px;
 cursor: pointer;
 }
 
-nav .hamb{
-width: 35px;
-height: 24px;
-right: 3%;
-top: 60px;
-z-index: 5;
-background: white;
-border: 1px solid white;
-position: absolute;
-cursor: pointer;
-display: none;
-}
 
-nav .hamb span{
-    display: block;
-    background: #8ac7d6;
-    width: 100%;
-    height: 3px;
-    transition: 0.4s;
-    transition-property: transform, opacity;
-}
-
-nav .hamb span:nth-child(2){
-    margin: 7px 0px;
-}
 nav .nav-list{
     list-style: none;
    
@@ -96,7 +72,8 @@ nav .nav-list li a:hover{
     padding-top: 100px;
 }
 .container .hero-text{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+   
 }
 .container .hero-text h1{
     color: azure;
@@ -105,6 +82,7 @@ nav .nav-list li a:hover{
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0 20px;
+    
 }
 span{
     color: rgb(141, 79, 192);
